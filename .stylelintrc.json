@@ -1,0 +1,12 @@
+{
+    "extends": "stylelint-config-standard",
+    "plugins": ["stylelint-scss"],
+    "rules": {
+      "at-rule-no-unknown": null,
+      "declaration-colon-space-after": "always",
+      "declaration-colon-space-before": "never",
+      "selector-list-comma-space-after": "always",
+      "max-empty-lines": 1
+    }
+  }
+  

@@ -1,0 +1,7 @@
+$breakpoints: (
+  'phone': $breakpoint-phone,
+  'tablet': $breakpoint-tablet,
+  'desktop': $breakpoint-desktop,
+) !default;
+
+@import '../../node_modules/include-media/dist/include-media';

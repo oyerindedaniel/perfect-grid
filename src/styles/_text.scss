@@ -1,0 +1,28 @@
+@mixin typography(
+  $font-size,
+  $line-height,
+  $letter-spacing,
+  $font-weight: normal
+) {
+  font-size: $font-size;
+  line-height: $line-height;
+  letter-spacing: $letter-spacing;
+  font-weight: $font-weight;
+  font-family: $font-family-dm-sans;
+}
+
+%text-preset-1 {
+  @include typography(6.2rem, 93.5%, -3px, medium);
+}
+
+%text-preset-2 {
+  @include typography(4rem, 90%, -2px, medium);
+}
+
+%text-preset-3 {
+  @include typography(3.2rem, 87.5%, -2px, medium);
+}
+
+%text-preset-4 {
+  @include typography(1.8rem, 111%, 0px, regular);
+}
